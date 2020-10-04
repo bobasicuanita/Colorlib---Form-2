@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.ico"/>
+    <link href="images/fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Colorlib Clone - Form 2</title>
+</head>
+<body>
+    <div class="background-wrapper">
+        <div class="form-box">
+            <h1>Contact Us</h1>
+            <div class="validation-input">
+                <input class="input" type="text" name="name" id="name">
+                <span class="border"></span>
+                <span class="placeholder">NAME</span>
+                <div class="error">
+                    <span class="message"></span>
+                </div>
+            </div>
+            <div class="validation-input">
+                <input class="input" type="email" name="email" id="email">
+                <span class="border"></span>
+                <span class="placeholder">EMAIL</span>
+                <div class="error">
+                    <span class="message"></span>
+                </div>
+            </div>
+            <div class="validation-input">
+                <textarea class="input" name="message" id="message" cols="30" rows="5"></textarea>
+                <span class="border"></span>
+                <span class="placeholder">MESSAGE</span>
+                <div class="error" id="textarea-error">
+                    <span class="message"></span>
+                </div>      
+            </div>
+            <button class="btn">Send Your Message</button>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
